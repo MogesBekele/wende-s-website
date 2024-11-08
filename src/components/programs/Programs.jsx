@@ -1,16 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Programs.css'
 import { GiSuspensionBridge } from "react-icons/gi";
 import { HiDocumentReport } from "react-icons/hi";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { MdRecommend } from "react-icons/md";
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 const Programs = () => {
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  })
   return (
     <section className="service section programs">
     <div className="comtainers">
 
       <div className="row">     
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-down">
           <div className="service-item-inner">
             <div className="icon">
             <GiSuspensionBridge />
@@ -22,7 +27,7 @@ const Programs = () => {
           </div>
         </div>
       
-        <div className="service-item">
+        <div className="service-item"  data-aos="fade-up">
           <div className="service-item-inner">
             <div className="icon">
             <HiDocumentReport />
@@ -34,7 +39,7 @@ const Programs = () => {
           </div>
         </div>
  
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-down">
           <div className="service-item-inner">
             <div className="icon">
             <FaMoneyBillTrendUp />
@@ -45,7 +50,7 @@ const Programs = () => {
             </p>
           </div>
         </div>
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-up">
           <div className="service-item-inner">
             <div className="icon">
             <MdRecommend />

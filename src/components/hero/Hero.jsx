@@ -7,8 +7,7 @@ function Hero() {
     <div className='hero container'>
       <div className='hero-text'>
         <h1>Get Your Pensions and VAT Reports Together</h1>
-        <p> Combining your pensions with Wende's company could help you keep
-        track of your money, putting you in control of your finances.</p>
+        <p> Combining your pensions and VAT reports with Wende's company can help you keep track of your money, putting you in control of your finances.</p>
         <Link to='about' offset={-150} className='btn' >Find Out more<img src={dark_arrow} alt="" /></Link>
       </div>
 
