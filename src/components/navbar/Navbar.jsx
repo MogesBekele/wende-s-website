@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
-import logo from '../../assets/logo.png'
+
 import { GiSuspensionBridge } from "react-icons/gi";
 import menu_icon from '../../assets/menu-icon.png'
 import { Link } from 'react-scroll'
