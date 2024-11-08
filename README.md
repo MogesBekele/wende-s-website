@@ -1,8 +1,7 @@
-# React + Vite
+wende pension and VAT report company website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview: This wende pension and VAT report company website , built with React.js, is designed to provide users with an intuitive, user-friendly platform to access the service content. The site is structured with modern design principles to ensure an engaging and accessible experience for all users.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack: 
+Frontend: React.js, CSS/SCSS for styling, and React Router for navigation.
+form submition: web3form.com
