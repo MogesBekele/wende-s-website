@@ -7,7 +7,7 @@ import About from './components/about/About'
 import Testimonail from './components/testimonials/Testimonail'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import FAQ from './components/FAQ/Faq'
+import FAQ from './components/faq/FAQ'
 
 function App() {
   
