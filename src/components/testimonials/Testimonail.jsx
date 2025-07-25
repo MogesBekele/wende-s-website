@@ -20,6 +20,7 @@ const Testimonail = () => {
 
   }
   const slideBackward = ()=>{
+
     if(tx<0){
       tx+=25
     }
